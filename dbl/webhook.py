@@ -77,7 +77,7 @@ class WebhookManager:
             "func": self.home
         }
         return self
-    async def _bot_vote_handler(self, request: aiohttp.web.Request):
+    async def home(self, request: aiohttp.web.Request):
      return web.Response(status=200, text="OK")
 
     async def _bot_vote_handler(self, request: aiohttp.web.Request):
